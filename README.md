@@ -28,6 +28,14 @@ const ziyan = {
 };
 ```
 
+## 🤝 Connect With Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/mohammedziyan7/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://x.com/ziyaaaannn"><img src="https://img.shields.io/badge/X%20(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <img src="https://img.shields.io/badge/Portfolio-coming%20soon-161b22?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio coming soon" />
+</p>
+
 ## 🔭 Featured Work
 
 <table>
@@ -80,10 +88,6 @@ const ziyan = {
 <p align="center">
   <img src="profile-summary-card-output/github_dark/1-repos-per-language.svg" width="49%" />
   <img src="profile-summary-card-output/github_dark/4-productive-time.svg" width="49%" />
-</p>
-<p align="center">
-  <img src="profile-summary-card-output/github_dark/3-stats.svg" width="49%" />
-  <img src="profile-summary-card-output/github_dark/2-most-commit-language.svg" width="49%" />
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=mhdziyan6&theme=github-dark-blue&hide_border=true&background=0d1117" width="98%" />
