@@ -1,0 +1,32 @@
+# Regenerates the analytics cards and achievements daily, stored in this repo so they never 503.
+# Needs a classic PAT with `repo` + `read:user` saved as secret METRICS_TOKEN (private + team repos count).
+name: Profile cards
+on:
+  schedule: [{ cron: "0 3 * * *" }]
+  workflow_dispatch:
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: 3
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.svg
+          base: ""
+          config_timezone: Asia/Qatar
+          repositories_affiliations: owner, collaborator, organization_member
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
