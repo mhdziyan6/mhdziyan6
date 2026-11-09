@@ -6,27 +6,57 @@
 
 ## 🎯 About Me
 
-```js
+<table>
+<tr>
+<td width="55%" valign="top">
+
+```ts
 const ziyan = {
   role: "Full-Stack Developer",
+  focus: "AI-powered products",
   location: "Qatar 🇶🇦",
 
-  building: [
-    "SecureThread — vulnerability management + AI triage",
-    "Careerist — AI career guide for students & graduates",
-  ],
-
-  shipped: ["CV table-occupancy monitor", "Document AI", "CRM", "Routine tracker"],
-
-  stack: {
-    frontend: ["React", "TypeScript", "Vite", "Tailwind", "shadcn/ui"],
-    backend:  ["FastAPI", "Node.js", "Supabase", "PostgreSQL"],
-    ai:       ["Groq", "OpenAI", "YOLO", "OpenCV", "PyTorch"],
+  workingOn: {
+    SecureThread: "AI vuln triage",
+    Careerist: "AI career guide",
   },
 
-  currently: "building my portfolio",
+  shipped: [
+    "CV table monitor",
+    "Document AI",
+    "CRM",
+    "Routine tracker",
+  ],
+
+  stack: {
+    web: ["React", "TS", "Tailwind"],
+    api: ["FastAPI", "Node", "Supabase"],
+    ai:  ["Groq", "OpenAI", "YOLO"],
+  },
+
+  next: "portfolio → launch 🚀",
 };
 ```
+
+</td>
+<td width="45%" valign="top">
+
+**⚡ What I do**
+
+- 🛡️ Build **AI triage** that cuts scanner false positives at **SecureThread**
+- 🧭 Design **event-driven AI** where every feature shares one user state at **Careerist**
+- 👁️ Ship **computer vision** for real businesses: YOLO table monitoring, ~66 fps on a laptop GPU
+- 🧩 Take products end-to-end: UI → API → database → deploy
+
+**💬 Ask me about**
+
+React · FastAPI · Supabase · LLM function calling · OpenCV
+
+</td>
+</tr>
+</table>
+
+<p align="center"><i>“Simplicity is prerequisite for reliability.”</i> — Edsger W. Dijkstra</p>
 
 ## 🤝 Connect With Me
 
