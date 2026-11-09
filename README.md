@@ -89,7 +89,7 @@ const ziyan = {
   <img src="https://streak-stats.demolab.com?user=mhdziyan6&theme=github-dark-blue&hide_border=true&background=0d1117" width="98%" />
 </p>
 
-## 🏆 Achievements
+## 🧱 Contribution Calendar
 
 <p align="center">
   <img src="metrics.svg" width="100%" />
