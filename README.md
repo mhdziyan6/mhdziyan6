@@ -1,16 +1,19 @@
-## Hi there 👋
+### Hi, I'm Ziyan 👋
 
-<!--
-**mhdziyan6/mhdziyan6** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Full-stack developer building AI-powered products — security tooling, career guidance, computer vision.
+Based in Qatar 🇶🇦 · Portfolio coming soon
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### 🔭 Featured work
+
+- **[SecureThread](https://github.com/SthIntern01/SecureThread)** — vulnerability management platform. Repo scanning across GitHub, GitLab and Bitbucket, AI-assisted triage with false-positive reduction, Slack bot with PDF reports.
+- **[Careerist](https://github.com/career-wise/Careerist)** — AI career guide for students and graduates. Every feature (chat, mock interviews, goals) shares one event log, so the assistant reacts to what you did elsewhere in the app.
+
+#### 🛠 Stack
+
+<img src="https://skillicons.dev/icons?i=ts,react,vite,tailwind,nodejs,python,fastapi,supabase,postgres,opencv,pytorch,vercel,git&theme=dark" alt="Tech stack" />
+
+#### 📊 Activity
+
+<img src="metrics.svg" alt="GitHub metrics" width="100%" />
